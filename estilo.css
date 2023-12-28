@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+label, input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 30px auto; /* auto para centralizar*/
+  
+    
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+
+}
+
+#esquerda{
+    width: 30%;
+    background-color: red;
+    height: 400px;
+    float: left; /*para ficar um do lado do outro*/
+    
+}
+
+#direita{
+    width: 65%;
+    background-color: pink;
+    height: 400px;
+    float: left; /*para ficar um do lado do outro*/
+}
+
+table{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 10px auto; /* para centralizar*/
+
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0, 0, .6);
+    color: white;
+    text-align: center;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: mediumturquoise;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+
+}
+
+a#excluir{
+    background-color: red;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.aviso{
+    
+    width: 40%;
+    height: 40%;
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    
+}
+
+img{
+    width: 50px;
+    display: block;
+    float: left;
+    
+}
+
+h4{
+    float: left;
+    line-height: 50px;
+}
+
+
+
